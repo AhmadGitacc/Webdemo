@@ -2,7 +2,7 @@ function searchDisease() {
     let searched_Disease = document.getElementById("search").value;
     let disease_Info = document.getElementById(searched_Disease);
     let disease = document.getElementById("infodiv");
-    disease_Info.toLowerCase();
+ 
 
     if (disease_Info) {
         disease.innerHTML = disease_Info.innerHTML;
