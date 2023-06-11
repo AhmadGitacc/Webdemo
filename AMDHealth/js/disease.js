@@ -35,9 +35,11 @@ function generateSearchSuggestions(searchTerm) {
         "Tuberculosis",
         "Cholera",
         "Ebola",
-        "Zikavirus",
-        "Lymedisease",
+        "Zika virus",
+        "Lyme disease",
         "Hepatitis",
+        "Alzehimers",
+        "HeartDisease,
     ];
 
     // Filter suggested disease names based on the search term
