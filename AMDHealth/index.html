@@ -224,8 +224,9 @@
 
             <form>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search here 🔎" id="search">
+                <input type="text" class="form-control" placeholder="Search here 🔎" id="search" oninput="showSearchSuggestions()">
               </div>
+              <div id="suggestions" style="border: 1px solid;"></div>
               <button type="button" onclick="searchDisease()">search</button>
             </form>
           </div>
