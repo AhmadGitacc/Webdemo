@@ -31,20 +31,18 @@ function generateSearchSuggestions(searchTerm) {
         "Depression",
         "Parkinson's disease",
         "COPD",
-        "hypertension",
         "Tuberculosis",
         "Cholera",
         "Ebola",
-        "Zika virus",
-        "Lyme disease",
+        "Zikavirus",
+        "Lymedisease",
         "Hepatitis",
-        "Alzehimers",
-        "HeartDisease,
+        "HeartDisease",
     ];
 
     // Filter suggested disease names based on the search term
     let filteredSuggestions = suggestedDiseases.filter((disease) =>
-        disease.toLowerCase().includes(searchTerm)
+        disease.toLowerCase().startsWith(searchTerm)
     );
 
     return filteredSuggestions;
